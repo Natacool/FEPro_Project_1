@@ -1,0 +1,183 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;  
+    max-width: 1920px;
+    font-family: 'Oswald', sans-serif;
+    }
+
+    /* wrappers */
+.projects_wrapper, .services_wrapper_1, .services_wrapper_2, 
+.numbers_wrapper, .contacts_wrapper    {
+    
+        display: flex; 
+        justify-content:space-between;
+        align-items: center;
+        position: relative;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 10%;
+     }
+
+     /* title */ 
+
+.projects-title, .services-title, .contacts-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+
+ /* header */
+.header {
+    background-image: url(./assets/images/bridge.svg);
+    text-align: center;
+    padding-top: 199px;
+    min-height: 740px;
+    color: #FFFFFF;
+  margin-bottom: 200px;
+
+
+}
+header h1 {
+    font-size: 64px;
+    height: auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header h2 {
+    font-size: 18px;
+    height: auto;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.numbers_wrapper {
+    font-weight: 500;
+    height: 300px;
+    background: #FFFFFF; 
+    
+     
+    padding-right: 10%;
+    padding-left: 10%;
+   
+}
+
+.numbers {
+    color: #F7654A;
+    font-size: 72px;
+    line-height: 106.7px;
+    
+}
+.years {
+    color: #000;
+    font-size: 36px;
+    line-height: 53.35px;
+}
+.market {
+    color: #999999;
+    font-size: 18px;
+    line-height: 26.68px;
+}
+ /* section class="projects" */
+ .projects-title {
+    margin-bottom: 60px;
+ }
+ 
+ 
+
+.projects-item h3 {
+   text-align: left;
+    
+ }
+.projects-item-text {
+    color: #D9D9D9;
+    margin-bottom: 200px;
+}
+hr {
+    width: 55px;
+    height: 6px;
+    left: 405px;
+    background-color: #F7654A;
+    border-color: #F7654A;
+   
+}
+
+ /* section class="requests" */
+ .requests {
+    margin-bottom: 150px; 
+    background-color: #F7654A;   
+    color: #FFFFFF;
+    }
+
+
+/* section class="services" */
+.services_wrapper_1 {
+    margin-bottom: 150px;
+   
+}
+.services_wrapper_2 {
+    margin-bottom: 112px;
+}
+.services-item {
+    background: #F7F7F7;
+    text-align:center;
+    font-size: 21px;
+}
+.services-title {
+    margin-bottom: 66px;
+}
+.services-item img {
+    margin-bottom: 45px;
+}
+
+
+
+
+
+/* section class="contacts" */
+.contacts_wrapper {
+    margin-bottom: 60px;
+}
+.contacts-item {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+h5 {
+    color: #999999;
+}
+.contacts-title {
+    margin-bottom: 60px;
+
+}
+
+.contacts-item-email {
+    color: #F7654A;
+}
+
+
+
+ /* <footer>*/
+.footer_wrapper {
+    background: #404149;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+
+.footer-item p {
+    
+    display: inline-block; 
+
+    
+}
+.building_company {
+    text-align: left;
+ 
+    
+}
+.best_company {
+    text-align: right;
+    padding: 2%;
+}
